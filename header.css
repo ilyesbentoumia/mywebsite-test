@@ -1,0 +1,126 @@
+.left-section{
+    margin-left: 20px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.humburger-logo,.youtube-logo{
+   display: inline-block;
+   cursor: pointer;
+}
+.humburger-logo img{
+    width: 25px;
+}
+.youtube-logo img{
+    margin-left: 5px;
+    width: 90px;
+}
+.middle-section{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.search-bar{
+    flex:1;
+    padding-left: 10px;
+    width: 0;
+    height: 35px;
+    border: 1px solid rgb(216, 215, 215);
+    max-width: 350px;
+}
+.search-bar::placeholder{
+    font-size: 15px;
+    color: rgb(131, 130, 130);
+}
+.button-search{
+    width: 65px;
+    height: 39px;
+    border: 1px solid rgb(216, 215, 215);
+    margin-left: -1px;
+    background-color: rgb(248, 248, 248);
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+.button-search:hover{
+    background-color: rgb(240, 240, 240);
+}
+.button-search img{
+    width: 24px;
+    margin-top: 3px;
+}
+.voice-search{
+    width: 24px;
+    background-color: rgb(247, 247, 247);
+    padding: 8px;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.right-section{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.upload-logo,.youtube-apps-logo,.notification-logo{
+    width: 24px;
+    cursor: pointer;
+}
+.my-channel{
+    width: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.notification-box{
+    position: relative;
+    
+}
+.notification-box p{
+    position: absolute;
+    top: 0;
+    right: -4px;
+    color: white;
+    background-color: rgb(204, 11, 11);
+    font-size: 10px;
+    padding: 1.5px 5px;
+    border-radius: 50px;
+    pointer-events: none;
+}
+.right-side{
+    width: 70px;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    z-index: 200;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.right-side-link{
+ display: flex;
+ height: 74px;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ white-space: nowrap;
+ font-size: 10px;
+ cursor: pointer;
+ flex-shrink: 0;
+}
+.right-side img{
+    width: 24px;
+    margin-bottom: 7px;
+}
+.right-side-link:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+
